@@ -1,0 +1,25 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+// can add Boostrap overrides, additional Sass/CSS below...
+.animal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.subtitles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
